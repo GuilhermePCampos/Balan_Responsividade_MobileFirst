@@ -38,7 +38,7 @@
       font-size: 1.875em;
     }
   
-    .container__titulo, .negrito {    
+    .container__titulo .negrito {    
       font-weight: bold;   
     }
   
