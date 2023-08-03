@@ -21,5 +21,45 @@
   .container img, span {
     padding: 1em;
   }
+
+  .container__menu-item {
+    display: none;
+  }
+
+  .container__titulo {
+    display: none;
+  }
+  
+  @media screen and (min-width: 1024px) {  
+    .container__titulo {
+      display: block;
+      font-family: var(--fonte-secundaria);
+      font-weight: var(--fonte-secundaria-normal);    
+      font-size: 1.875em;
+    }
+  
+    .container__titulo, .negrito {    
+      font-weight: bold;   
+    }
+  
+    .cabecalho__menu {
+      display: none;
+    }
+  
+    .container .favorito {
+      display: none;
+    }
+
+    .container__menu-item {      
+      padding: 1em;
+      display: flex;
+    }
+
+    .container__menu-item a {
+      margin-left: 1em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
   
   
