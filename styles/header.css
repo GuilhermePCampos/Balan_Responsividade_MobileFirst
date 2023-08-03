@@ -32,9 +32,7 @@
   
   @media screen and (min-width: 1024px) {  
     .container__titulo {
-      display: block;
-      font-family: var(--fonte-secundaria);
-      font-weight: var(--fonte-secundaria-normal);    
+      display: block;   
       font-size: 1.875em;
     }
   
