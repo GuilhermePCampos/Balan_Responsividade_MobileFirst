@@ -1,4 +1,4 @@
-.cabecalho__menu-hamburguer{
+.cabecalho__menu-hamburguer {
     width: 24px;
     height: 24px;
     background-image: url("../imagens/Menu.svg");
@@ -29,8 +29,17 @@
   .container__titulo {
     display: none;
   }
+
+  .container__menu-titulo{
+    display: none;
+  }
   
   @media screen and (min-width: 1024px) {  
+
+    .cabecalho__menu-hamburguer {
+      display: none;
+    }
+
     .container__titulo {
       display: block;   
       font-size: 1.875em;
@@ -60,4 +69,15 @@
     }
   }
   
+  @media screen and (min-width: 1020px) {   
+
+    .container__menu-titulo{
+      display: block;
+    }
+
+    .container__menu-titulo:last-child{
+      padding-right: 1em;
+    }
+
+  }
   
